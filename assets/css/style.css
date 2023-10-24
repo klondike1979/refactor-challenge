@@ -1,12 +1,4 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-color: #d9dcd6;
-}
+/* Header */
 
 .header {
     padding: 20px;
@@ -41,6 +33,9 @@ body {
     margin-left: 25px;
 }
 
+
+/* Hero */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -50,23 +45,10 @@ body {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Aside */
 
-.content {
-    display: inline-block;
-    margin-left: 20px;
-    width: 75%;
-}
-
-.benefits {
+.aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -77,27 +59,30 @@ body {
     background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+.aside-lead,
+.aside-brand,
+.aside-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+.aside-lead h3,
+.aside-brand h3,
+.aside-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+.aside-lead img,
+.aside-brand img,
+.aside-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+/* Content */
 
 .search-engine-optimization ,
 .online-reputation-management,
@@ -124,6 +109,34 @@ body {
 }
 
 
+/* Formatting */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 20px;
+    width: 75%;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -133,6 +146,8 @@ p {
     font-size: 16px;
 }
 
+
+/* Footer */
 
 .footer {
     padding: 30px;
