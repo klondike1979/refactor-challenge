@@ -7,8 +7,9 @@ Refactoring existing code to improve accessibility and optimise site for search 
 Display errors occur at a screen width of >768px
 
 ### Credits & Acknowledgements
-Omar: provided starter code.
+Omar - provided starter code.
 Coffee.
+Me.
 
 
 ### Licensing Information
